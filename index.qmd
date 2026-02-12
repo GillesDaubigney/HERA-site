@@ -1,6 +1,11 @@
-------------------------------------------------------------------------
+---
+title: "index"
+editor: visual
+---
 
-------------------------------------------------------------------------
+---
+title: "Welcome to HERA"
+---
 
 ![](images/HERA-logo.png){width="200px" align="center"}
 
@@ -22,12 +27,4 @@
 -   📊 Provide interactive tools for exploring cost‑effectiveness and uncertainty\
 -   🧠 Promote transparent and reproducible modeling practices
 
-## ![](images/home-visual.png){width="90%"}
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+![](images/home-visual.png){width="90%"}

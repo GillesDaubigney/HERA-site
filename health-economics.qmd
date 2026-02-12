@@ -1,0 +1,29 @@
+---
+title: "Health Economics Overview"
+---
+
+## What Is Health Economics?
+
+Health economics assesses the value of healthcare interventions, balancing clinical outcomes and resource use.
+
+## Common Model Types
+
+| Type                      | Description                              |
+|---------------------------|------------------------------------------|
+| Decision Tree             | Simple, single‑episode analysis          |
+| Markov Model              | Chronic conditions with recurring states |
+| Partitioned Survival      | Oncology and time‑to‑event data          |
+| Discrete‑Event Simulation | Complex patient pathways                 |
+
+## Key Metrics
+
+-   **ICER** – Incremental Cost‑Effectiveness Ratio\
+-   **NMB** – Net Monetary Benefit\
+-   **CEAC** – Cost‑Effectiveness Acceptability Curve
+
+## Further Reading
+
+-   Drummond MF et al., *Methods for the Economic Evaluation of Health Care Programmes*\
+-   ISPOR–SMDM Task Force Papers (2012)
+
+------------------------------------------------------------------------

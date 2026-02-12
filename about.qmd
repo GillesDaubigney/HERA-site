@@ -1,0 +1,22 @@
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+---
+title: "About"
+---
+
+## The HERA Initiative
+
+HERA brings transparency and reproducibility to health‑economic modeling.
+
+## About the Author
+
+**Gilles Daubigney**\
+Health economist and R developer specialising in decision‑analytic modeling.
+
+## Vision
+
+Empower clinicians and healthcare leaders with accessible, evidence‑based tools.
+
+------------------------------------------------------------------------

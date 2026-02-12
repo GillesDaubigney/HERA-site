@@ -1,0 +1,15 @@
+{
+  "hash": "1b1fd43ee37c23d514cebab9a7775eb8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\n\n---\n\n![](images/HERA-logo.png){width=\"200px\" align=\"center\"}\n\n# Welcome to HERA\n\n*Your Health Economics and Regulatory Affairs Partner*\n\n::: hero\n# Evidence‑Based Decision Support for Health and Policy\n\n*Interactive tools and transparent models to guide healthcare resource allocation.*\n\n[Launch HERA App](app.qmd){.btn .btn-primary}\n:::\n\n## What We Do\n\n-   💡 Develop health‑economic models to support policy and clinical decisions\\\n-   📊 Provide interactive tools for exploring cost‑effectiveness and uncertainty\\\n-   🧠 Promote transparent and reproducible modeling practices\n\n## ![](images/home-visual.png){width=\"90%\"}\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

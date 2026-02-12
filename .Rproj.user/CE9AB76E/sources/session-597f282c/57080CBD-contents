@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "HERA – Health Economics & Regulatory Affairs Partner"
+  description: "Your Health Economics and Regulatory Affairs Partner"
+  favicon: image/favicon.png        
+  navbar:
+    logo: image/HERA-logo.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: app.qmd
+        text: HERA Application
+      - href: health-economics.qmd
+        text: Health Economics
+      - href: methods.qmd
+        text: Methods & Validation
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    highlight-style: github

@@ -1,0 +1,33 @@
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+![](images/HERA-logo.png){width="200px" align="center"}
+
+# Welcome to HERA
+
+*Your Health Economics and Regulatory Affairs Partner*
+
+::: hero
+# Evidence‑Based Decision Support for Health and Policy
+
+*Interactive tools and transparent models to guide healthcare resource allocation.*
+
+[Launch HERA App](app.qmd){.btn .btn-primary}
+:::
+
+## What We Do
+
+-   💡 Develop health‑economic models to support policy and clinical decisions\
+-   📊 Provide interactive tools for exploring cost‑effectiveness and uncertainty\
+-   🧠 Promote transparent and reproducible modeling practices
+
+## ![](images/home-visual.png){width="90%"}
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+```

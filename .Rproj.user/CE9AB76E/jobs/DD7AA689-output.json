@@ -1,0 +1,8 @@
+[1,"==> quarto preview --render all --no-watch-inputs --no-browse\n\n"]
+[1,"Rendering:\n"]
+[1,"\r[1/6] about.qmd\n"]
+[1,"\r[2/6] app.qmd\n"]
+[1,"\r[3/6] contact.qmd\n"]
+[1,"\r[4/6] health-economics.qmd\n"]
+[1,"\r[5/6] index.qmd\n"]
+[1,"ERROR: Expected YAML front matter to end with '---'\n\nStack trace:\n    at validateDocumentFromSource (file:///C:/PROGRA~1/RStudio/RESOUR~1/app/bin/quarto/bin/quarto.js:120442:13)\n    at eventLoopTick (ext:core/01_core.js:178:7)\n    at async renderFileInternal (file:///C:/PROGRA~1/RStudio/RESOUR~1/app/bin/quarto/bin/quarto.js:123882:36)\n    at async renderFiles (file:///C:/PROGRA~1/RStudio/RESOUR~1/app/bin/quarto/bin/quarto.js:123684:9)\n    at async renderProject (file:///C:/PROGRA~1/RStudio/RESOUR~1/app/bin/quarto/bin/quarto.js:124209:23)\n    at async serveProject (file:///C:/PROGRA~1/RStudio/RESOUR~1/app/bin/quarto/bin/quarto.js:148207:20)\n    at async _Command.actionHandler (file:///C:/PROGRA~1/RStudio/RESOUR~1/app/bin/quarto/bin/quarto.js:149122:5)\n    at async _Command.execute (file:///C:/PROGRA~1/RStudio/RESOUR~1/app/bin/quarto/bin/quarto.js:9840:7)\n    at async _Command.parseCommand (file:///C:/PROGRA~1/RStudio/RESOUR~1/app/bin/quarto/bin/quarto.js:9717:14)\n    at async quarto (file:///C:/PROGRA~1/RStudio/RESOUR~1/app/bin/quarto/bin/quarto.js:175526:5)\n"]

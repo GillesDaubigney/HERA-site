@@ -1,0 +1,11 @@
+---
+title: "Methods and Validation"
+---
+
+## Model Structure
+
+Describe your model (Markov, decision tree, etc.). Include a diagram output if available:
+
+\`\`\`{r} #\| echo: false \# Diagram placeholder
+
+------------------------------------------------------------------------

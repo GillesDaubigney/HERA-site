@@ -21,10 +21,16 @@ website:
         text: About
       - href: contact.qmd
         text: Contact
+  page-footer:                  # <-- changed from "footer" to "page-footer"
+    left: "© 2026 HERA Project"
+    right:
+      - icon: github
+        href: https://github.com/GillesDaubigney/HERA-site
 
 format:
   html:
     theme: cosmo
+    css: styles.css
     toc: true
     toc-depth: 2
     number-sections: false

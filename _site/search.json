@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "methods.html",
+    "href": "methods.html",
+    "title": "Methods and Validation",
+    "section": "",
+    "text": "Describe your model (Markov, decision tree, etc.). Include a diagram output if available:\n```{r} #| echo: false # Diagram placeholder"
+  },
+  {
+    "objectID": "methods.html#model-structure",
+    "href": "methods.html#model-structure",
+    "title": "Methods and Validation",
+    "section": "",
+    "text": "Describe your model (Markov, decision tree, etc.). Include a diagram output if available:\n```{r} #| echo: false # Diagram placeholder"
+  },
+  {
+    "objectID": "health-economics.html",
+    "href": "health-economics.html",
+    "title": "Health Economics Overview",
+    "section": "",
+    "text": "Health economics assesses the value of healthcare interventions, balancing clinical outcomes and resource use."
+  },
+  {
+    "objectID": "health-economics.html#what-is-health-economics",
+    "href": "health-economics.html#what-is-health-economics",
+    "title": "Health Economics Overview",
+    "section": "",
+    "text": "Health economics assesses the value of healthcare interventions, balancing clinical outcomes and resource use."
+  },
+  {
+    "objectID": "health-economics.html#common-model-types",
+    "href": "health-economics.html#common-model-types",
+    "title": "Health Economics Overview",
+    "section": "Common Model Types",
+    "text": "Common Model Types\n\n\n\nType\nDescription\n\n\n\n\nDecision Tree\nSimple, single‑episode analysis\n\n\nMarkov Model\nChronic conditions with recurring states\n\n\nPartitioned Survival\nOncology and time‑to‑event data\n\n\nDiscrete‑Event Simulation\nComplex patient pathways"
+  },
+  {
+    "objectID": "health-economics.html#key-metrics",
+    "href": "health-economics.html#key-metrics",
+    "title": "Health Economics Overview",
+    "section": "Key Metrics",
+    "text": "Key Metrics\n\nICER – Incremental Cost‑Effectiveness Ratio\n\nNMB – Net Monetary Benefit\n\nCEAC – Cost‑Effectiveness Acceptability Curve"
+  },
+  {
+    "objectID": "health-economics.html#further-reading",
+    "href": "health-economics.html#further-reading",
+    "title": "Health Economics Overview",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nDrummond MF et al., Methods for the Economic Evaluation of Health Care Programmes\n\nISPOR–SMDM Task Force Papers (2012)"
+  },
+  {
+    "objectID": "app.html",
+    "href": "app.html",
+    "title": "HERA Application",
+    "section": "",
+    "text": "The HERA App helps decision‑makers evaluate interventions using incremental cost‑effectiveness and uncertainty analysis."
+  },
+  {
+    "objectID": "app.html#overview",
+    "href": "app.html#overview",
+    "title": "HERA Application",
+    "section": "",
+    "text": "The HERA App helps decision‑makers evaluate interventions using incremental cost‑effectiveness and uncertainty analysis."
+  },
+  {
+    "objectID": "app.html#live-application",
+    "href": "app.html#live-application",
+    "title": "HERA Application",
+    "section": "Live Application",
+    "text": "Live Application"
+  },
+  {
+    "objectID": "app.html#how-to-use",
+    "href": "app.html#how-to-use",
+    "title": "HERA Application",
+    "section": "How to Use",
+    "text": "How to Use\n\nAdjust parameter inputs in the sidebar\n\nReview cost and utility outputs\n\nExplore CE‑plane and cost‑effectiveness results\n\nExport findings as a report\n\n\n\n\n\n\n\nNote\n\n\n\nDisclaimer: HERA App is intended for research and educational use only."
+  },
+  {
+    "objectID": "about.html#the-hera-initiative",
+    "href": "about.html#the-hera-initiative",
+    "title": "About",
+    "section": "The HERA Initiative",
+    "text": "The HERA Initiative\nHERA brings transparency and reproducibility to health‑economic modeling."
+  },
+  {
+    "objectID": "about.html#about-the-author",
+    "href": "about.html#about-the-author",
+    "title": "About",
+    "section": "About the Author",
+    "text": "About the Author\nGilles Daubigney\nHealth economist and R developer specialising in decision‑analytic modeling."
+  },
+  {
+    "objectID": "about.html#vision",
+    "href": "about.html#vision",
+    "title": "About",
+    "section": "Vision",
+    "text": "Vision\nEmpower clinicians and healthcare leaders with accessible, evidence‑based tools."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "We welcome collaborations, feedback, and partnerships.\nEmail: gilles.daubigney@gmail.com\n\n\nName: \n\n\nEmail: \n\n\nMessage:\n\n\n\n\n\nSend"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "We welcome collaborations, feedback, and partnerships.\nEmail: gilles.daubigney@gmail.com\n\n\nName: \n\n\nEmail: \n\n\nMessage:\n\n\n\n\n\nSend"
+  },
+  {
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "Welcome to HERA",
+    "section": "What We Do",
+    "text": "What We Do\n\n💡 Develop health‑economic models to support policy and clinical decisions\n\n📊 Provide interactive tools for exploring cost‑effectiveness and uncertainty\n\n🧠 Promote transparent and reproducible modeling practices"
+  }
+]

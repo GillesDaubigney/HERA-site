@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./image/favicon.png" rel="icon" type="image/png">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-8b4baf804e461d9b72633f0de59a0cac.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-60d4398d82fec002ccec76571ed06d15.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-751058a47d45281bebb5f91713195539.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -81,8 +82,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./image/HERA-logo.png" alt="" class="navbar-logo light-content">
-    <img src="./image/HERA-logo.png" alt="" class="navbar-logo dark-content">
+    <img src="./images/hera_logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/hera_logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">HERA – Health Economics &amp; Regulatory Affairs Partner</span>
@@ -102,22 +103,36 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./app.html"> 
 <span class="menu-text">HERA Application</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./health-economics.html"> 
-<span class="menu-text">Health Economics</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="./health-economics.html">
+ <span class="dropdown-text">Health Economics</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./methods.html" aria-current="page"> 
-<span class="menu-text">Methods &amp; Validation</span></a>
+        <li>
+    <a class="dropdown-item" href="./methods.html">
+ <span class="dropdown-text">Methods &amp; Validation</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-company" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Company</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-company">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+        <li>
+    <a class="dropdown-item" href="./contact.html">
+ <span class="dropdown-text">Contact</span></a>
   </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -135,6 +150,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#model-structure" id="toc-model-structure" class="nav-link active" data-scroll-target="#model-structure">Model Structure</a></li>
+  <li><a href="#activity-supported" id="toc-activity-supported" class="nav-link" data-scroll-target="#activity-supported">Activity Supported</a></li>
+  <li><a href="#our-reference" id="toc-our-reference" class="nav-link" data-scroll-target="#our-reference">Our reference</a></li>
   </ul>
 </nav>
     </div>
@@ -162,8 +179,60 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="model-structure" class="level2">
 <h2 class="anchored" data-anchor-id="model-structure">Model Structure</h2>
-<p>Describe your model (Markov, decision tree, etc.). Include a diagram output if available:</p>
-<p>```{r} #| echo: false # Diagram placeholder</p>
+<p>Our experts can support you running the optimal models based on your situation:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Situation</th>
+<th>Best Fit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Acute, short-term</td>
+<td>Decision tree</td>
+</tr>
+<tr class="even">
+<td>Chronic disease, simple structure</td>
+<td>Markov cohort</td>
+</tr>
+<tr class="odd">
+<td>Survival-driven oncology</td>
+<td>Semi-Markov or PSM</td>
+</tr>
+<tr class="even">
+<td>Strong time-in-state effects</td>
+<td>Semi-Markov</td>
+</tr>
+<tr class="odd">
+<td>High heterogeneity</td>
+<td>Microsimulation</td>
+</tr>
+<tr class="even">
+<td>Operational/system constraints</td>
+<td>DES</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="activity-supported" class="level2">
+<h2 class="anchored" data-anchor-id="activity-supported">Activity Supported</h2>
+<p><img src="images/catalog.png" class="img-fluid"></p>
+</section>
+<section id="our-reference" class="level2">
+<h2 class="anchored" data-anchor-id="our-reference">Our reference</h2>
+<ol type="1">
+<li><p>Was the question clearly stated and answerable?</p></li>
+<li><p>Was a comprehensive overview of the competing alternatives presented ?</p></li>
+<li><p>Was evidence provided to demonstrate the effectiveness of the program or service?</p></li>
+<li><p>Were the key costs and consequences of each alternative comprehensively identified</p></li>
+<li><p>Were the costs and consequences quantified precisely in appropriate physical units prior to their valuation?</p></li>
+<li><p>Was the valuation of costs and consequences conducted in a credible manner ?</p></li>
+<li><p>Were adjustments made to the costs and consequences to reflect differences in timing?</p></li>
+<li><p>Was an incremental analysis performed to evaluate the differential costs and consequences between the alternatives?</p></li>
+<li><p>Was the uncertainty associated with the estimates of costs and consequences clearly identified and appropriately described?</p></li>
+<li><p>Were all user-relevant concerns adequately addressed in the presentation and discussion of the study’s findings?</p></li>
+</ol>
 <hr>
 
 
@@ -243,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/GillesDaubigney\.github\.io\/HERA-site\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -571,6 +640,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><img src="images/hera_logo.png" class="img-fluid" width="100"></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>© 2026 HERA Project – Health Economics &amp; Regulatory Affairs Partner</p>
+</div>
+  </div>
+</footer>
 
 
 

@@ -1,0 +1,70 @@
+/* === HERA light‑green theme === */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f9fff9;     /* very light green background tint */
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* ---------- Headings ---------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2E8B57;                /* emerald‑green headings */
+  font-weight: 700;
+}
+
+/* ---------- Navbar (menu header) ---------- */
+.navbar {
+  background-color: #d6f5d6 !important;  /* light‑green header bar */
+  padding-top: 0.5rem !important;        /* slimmer menu bar */
+  padding-bottom: 0.5rem !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08); /* subtle separation line */
+}
+
+.navbar-brand img {
+  height: 42px;                 /* scales the logo nicely */
+  width: auto;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #0f5132 !important;    /* dark‑green text for menu items */
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #1a7431 !important;    /* deeper green on hover */
+  text-decoration: underline;   /* optional subtle hover underline */
+}
+
+/* ---------- Buttons ---------- */
+.btn-primary {
+  background-color: #2E8B57;
+  border-color: #2E8B57;
+}
+.btn-primary:hover {
+  background-color: #90EE90;
+  border-color: #90EE90;
+  color: #0f5132;
+}
+
+/* ---------- Hero / callout blocks ---------- */
+.hero {
+  background-color: #FFFFFF;
+  border-left: 6px solid #2E8B57;
+  padding: 1.5rem 2rem;
+  margin-top: 1.5rem;
+}
+
+/* ---------- Footer ---------- */
+.page-footer {
+  background-color: #d6f5d6;
+  color: #0f5132;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  box-shadow: 0 -1px 3px rgba(0,0,0,0.06);
+}

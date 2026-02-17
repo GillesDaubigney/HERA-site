@@ -1,31 +1,36 @@
 project:
   type: website
-  output-dir: _site
 
 website:
   title: "HERA – Health Economics & Regulatory Affairs Partner"
-  description: "Your Health Economics and Regulatory Affairs Partner"
-  favicon: image/favicon.png        
+  favicon: images/favicon.png
   navbar:
-    logo: image/HERA-logo.png
+    logo: images/hera_logo.png
+    background: "#d6f5d6"
+    search: true
     left:
       - href: index.qmd
         text: Home
       - href: app.qmd
         text: HERA Application
-      - href: health-economics.qmd
-        text: Health Economics
-      - href: methods.qmd
-        text: Methods & Validation
-      - href: about.qmd
-        text: About
-      - href: contact.qmd
-        text: Contact
-  page-footer:                  # <-- changed from "footer" to "page-footer"
-    left: "© 2026 HERA Project"
-    right:
-      - icon: github
-        href: https://github.com/GillesDaubigney/HERA-site
+      - text: "Resources"
+        menu:
+          - href: health-economics.qmd
+            text: Health Economics
+          - href: methods.qmd
+            text: Methods & Validation
+      - text: "Company"
+        menu:
+          - href: about.qmd
+            text: About
+          - href: contact.qmd
+            text: Contact
+  page-footer:
+    background: "#d6f5d6"
+    border: false
+    left: |
+      ![](images/hera_logo.png){width="100"}
+    right: "© 2026 HERA Project – Health Economics & Regulatory Affairs Partner"
 
 format:
   html:

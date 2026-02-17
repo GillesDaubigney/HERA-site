@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./image/favicon.png" rel="icon" type="image/png">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-8b4baf804e461d9b72633f0de59a0cac.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-60d4398d82fec002ccec76571ed06d15.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-837d960f1bcd36a7cb358720923fb3ad.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -81,8 +82,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./image/HERA-logo.png" alt="" class="navbar-logo light-content">
-    <img src="./image/HERA-logo.png" alt="" class="navbar-logo dark-content">
+    <img src="./images/hera_logo.png" alt="" class="navbar-logo light-content">
+    <img src="./images/hera_logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">HERA – Health Economics &amp; Regulatory Affairs Partner</span>
@@ -102,22 +103,36 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./app.html"> 
 <span class="menu-text">HERA Application</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./health-economics.html" aria-current="page"> 
-<span class="menu-text">Health Economics</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="./health-economics.html">
+ <span class="dropdown-text">Health Economics</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./methods.html"> 
-<span class="menu-text">Methods &amp; Validation</span></a>
+        <li>
+    <a class="dropdown-item" href="./methods.html">
+ <span class="dropdown-text">Methods &amp; Validation</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-company" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Company</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-company">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+        <li>
+    <a class="dropdown-item" href="./contact.html">
+ <span class="dropdown-text">Contact</span></a>
   </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -134,10 +149,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#what-is-health-economics" id="toc-what-is-health-economics" class="nav-link active" data-scroll-target="#what-is-health-economics">What Is Health Economics?</a></li>
-  <li><a href="#common-model-types" id="toc-common-model-types" class="nav-link" data-scroll-target="#common-model-types">Common Model Types</a></li>
-  <li><a href="#key-metrics" id="toc-key-metrics" class="nav-link" data-scroll-target="#key-metrics">Key Metrics</a></li>
-  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a></li>
+  <li><a href="#empowering-healthcare-professionals-with-cutting-edge-economic-analysis-and-insights-to-transform-decision-making-and-policy-development." id="toc-empowering-healthcare-professionals-with-cutting-edge-economic-analysis-and-insights-to-transform-decision-making-and-policy-development." class="nav-link active" data-scroll-target="#empowering-healthcare-professionals-with-cutting-edge-economic-analysis-and-insights-to-transform-decision-making-and-policy-development.">Empowering healthcare professionals with cutting-edge economic analysis and insights to transform decision-making and policy development.</a></li>
+  <li><a href="#key-concepts-supported-by-our-experts-team" id="toc-key-concepts-supported-by-our-experts-team" class="nav-link" data-scroll-target="#key-concepts-supported-by-our-experts-team">Key concepts supported by our experts team</a></li>
+  <li><a href="#what-do-we-cover" id="toc-what-do-we-cover" class="nav-link" data-scroll-target="#what-do-we-cover">What do we cover?</a></li>
+  <li><a href="#forward-looking-framing" id="toc-forward-looking-framing" class="nav-link" data-scroll-target="#forward-looking-framing">Forward-Looking Framing</a></li>
   </ul>
 </nav>
     </div>
@@ -163,57 +178,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="what-is-health-economics" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-health-economics">What Is Health Economics?</h2>
-<p>Health economics assesses the value of healthcare interventions, balancing clinical outcomes and resource use.</p>
+<section id="empowering-healthcare-professionals-with-cutting-edge-economic-analysis-and-insights-to-transform-decision-making-and-policy-development." class="level2">
+<h2 class="anchored" data-anchor-id="empowering-healthcare-professionals-with-cutting-edge-economic-analysis-and-insights-to-transform-decision-making-and-policy-development.">Empowering healthcare professionals with cutting-edge economic analysis and insights to transform decision-making and policy development.</h2>
+<p>HERA generates robust evidence and builds economic models to substantiate value proposition.</p>
+<p>HERA mission is to realize optimal pricing and access potential for our clients and creating compelling value for Payers and patients. HERA supports stakeholders in interacting with Payers, Payer Experts, HTA bodies  and other access stakeholders such as the Recommending bodies (NITAGs). HERA  builds and delivers Global Market Access strategy and Payer Value Proposition based on clinical and economic data to facilitate access and reimbursement locally while sustaining innovation.</p>
 </section>
-<section id="common-model-types" class="level2">
-<h2 class="anchored" data-anchor-id="common-model-types">Common Model Types</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Decision Tree</td>
-<td>Simple, single‑episode analysis</td>
-</tr>
-<tr class="even">
-<td>Markov Model</td>
-<td>Chronic conditions with recurring states</td>
-</tr>
-<tr class="odd">
-<td>Partitioned Survival</td>
-<td>Oncology and time‑to‑event data</td>
-</tr>
-<tr class="even">
-<td>Discrete‑Event Simulation</td>
-<td>Complex patient pathways</td>
-</tr>
-</tbody>
-</table>
+<section id="key-concepts-supported-by-our-experts-team" class="level2">
+<h2 class="anchored" data-anchor-id="key-concepts-supported-by-our-experts-team">Key concepts supported by our experts team</h2>
+<section id="optimizing-opportunity-cost" class="level3">
+<h3 class="anchored" data-anchor-id="optimizing-opportunity-cost">1. Optimizing Opportunity Cost</h3>
+<p>The value of the best alternative use of resources.</p>
 </section>
-<section id="key-metrics" class="level2">
-<h2 class="anchored" data-anchor-id="key-metrics">Key Metrics</h2>
+<section id="increased-efficiency" class="level3">
+<h3 class="anchored" data-anchor-id="increased-efficiency">2. Increased Efficiency</h3>
 <ul>
-<li><strong>ICER</strong> – Incremental Cost‑Effectiveness Ratio<br>
-</li>
-<li><strong>NMB</strong> – Net Monetary Benefit<br>
-</li>
-<li><strong>CEAC</strong> – Cost‑Effectiveness Acceptability Curve</li>
+<li><p><strong>Technical efficiency</strong>: producing care at lowest cost</p></li>
+<li><p><strong>Allocative efficiency</strong>: allocating resources to maximize population health</p></li>
 </ul>
 </section>
-<section id="further-reading" class="level2">
-<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<section id="equity" class="level3">
+<h3 class="anchored" data-anchor-id="equity">3. Equity</h3>
+<p>How healthcare is distributed across individuals or groups.</p>
+<p>Efficiency and equity often conflict.</p>
+</section>
+<section id="utility-and-qalys" class="level3">
+<h3 class="anchored" data-anchor-id="utility-and-qalys">4. Utility and QALYs</h3>
+<p>Models relying on <strong>quality-adjusted life years (QALYs)</strong> combining survival and quality of life.</p>
+</section>
+<section id="cost-effectiveness" class="level3">
+<h3 class="anchored" data-anchor-id="cost-effectiveness">5. Cost-Effectiveness</h3>
+<p>Comparing incremental cost per incremental health gain (e.g., ICERs).</p>
+</section>
+</section>
+<section id="what-do-we-cover" class="level2">
+<h2 class="anchored" data-anchor-id="what-do-we-cover">What do we cover?</h2>
+<p>Development of cost-effectiveness models and policy framework.</p>
 <ul>
-<li>Drummond MF et al., <em>Methods for the Economic Evaluation of Health Care Programmes</em><br>
-</li>
-<li>ISPOR–SMDM Task Force Papers&nbsp;(2012)</li>
+<li><p>Health technology assessment (HTA)</p></li>
+<li><p>Pricing and reimbursement policy</p></li>
+<li><p>Public health economics</p></li>
 </ul>
-<hr>
+</section>
+<section id="forward-looking-framing" class="level2">
+<h2 class="anchored" data-anchor-id="forward-looking-framing">Forward-Looking Framing</h2>
+<p>We address:</p>
+<ul>
+<li><p>Budget impact and affordability constraints</p></li>
+<li><p>Dynamic pricing and value-based agreements</p></li>
+<li><p>Real-world evidence integration</p></li>
+<li><p>Long-term system sustainability</p></li>
+</ul>
 
 
 </section>
@@ -620,6 +634,19 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><img src="images/hera_logo.png" class="img-fluid" width="100"></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>© 2026 HERA Project – Health Economics &amp; Regulatory Affairs Partner</p>
+</div>
+  </div>
+</footer>
 
 
 
